@@ -1,5 +1,4 @@
- 
-n
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -21,51 +20,33 @@ wheels/
 .installed.cfg
 *.egg
 
-# Checkpoints and model files
-checkpoints/
-*.pth
-*.pt
-*.pkl
-*.h5
-
-# Dataset
-data/
-DATASET/
-datasets/
-*.jpg
-*.jpeg
-*.png
-*.gif
-*.bmp
+# Virtual Environment
+venv/
+env/
+ENV/
 
 # IDE
 .idea/
 .vscode/
 *.swp
 *.swo
+
+# Data
+71299*/
+023*/
+*.jpg
+*.jpeg
+*.png
+*.json
+checkpoints/
+logs/
+*.err
+*.out
+*.sh
+
+# OS
 .DS_Store
+Thumbs.db
 
 # Jupyter Notebook
 .ipynb_checkpoints
-*.ipynb
-
-# Virtual Environment
-venv/
-env/
-.env/
-.venv/
-
-# Logs
-logs/
-*.log
-wandb/
-
-# Others
-.DS_Store
-result*/
-checkpoints/
-*.sh
-*.err
-*.out
-
-
